@@ -4,7 +4,7 @@ colors="red white red"
 
 for col in $colors 
 do
-       	echo $col
+  echo $col
 done
 
 
