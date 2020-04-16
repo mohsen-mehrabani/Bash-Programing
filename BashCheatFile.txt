@@ -1,0 +1,26 @@
+# for loop
+{
+	for statement in range
+		do
+			{
+			
+			}
+		done	
+}
+
+# if statement
+{
+	if condition
+		then
+			pass
+		else
+			pass
+	fi
+}
+
+cat {firsFile,secondFile,thirdFile} > text.txt
+
+var1=8
+echo $((var2 = var1 > 9 ? 1:0)) #result will be 0
+
+
