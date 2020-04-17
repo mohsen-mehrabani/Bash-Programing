@@ -20,4 +20,5 @@ echo "$hi"
 
 dir=`ls /home`
 echo $dir
-
+dir1=$(ls -ltrh)
+echo "$dir1"
