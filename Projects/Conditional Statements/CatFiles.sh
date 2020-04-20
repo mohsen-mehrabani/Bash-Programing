@@ -23,8 +23,8 @@ then
 fi
 
 if [[ ! -e "$1" || ! -e "$2" ]]
-  echo "File does not exists"
 then
+  echo "File does not exists"
   exit $E_NoFile
 elif [[ ! -f "$1" || ! -f "$2" ]]
   then
