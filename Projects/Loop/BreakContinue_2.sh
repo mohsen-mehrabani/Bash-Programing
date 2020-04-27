@@ -28,7 +28,7 @@ do
       echo -e "\t\tLoop 3: iteration $k"
       if [ "$k" -eq 2 ]
       then
-        continue 3
+        continue 1
       fi
     done
   done
