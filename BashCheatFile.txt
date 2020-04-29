@@ -23,4 +23,11 @@ cat {firsFile,secondFile,thirdFile} > text.txt
 var1=8
 echo $((var2 = var1 > 9 ? 1:0)) #result will be 0
 
+exfat centos
+sudo yum install epel-release
+sudo rpm -v --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
+sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+sudo yum install exfat-utils fuse-exfat
 
+fedora 31
+sudo dnf -y install fuse-exfat
