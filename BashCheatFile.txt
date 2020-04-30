@@ -31,3 +31,4 @@ sudo yum install exfat-utils fuse-exfat
 
 fedora 31
 sudo dnf -y install fuse-exfat
+hi
