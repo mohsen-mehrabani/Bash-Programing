@@ -20,3 +20,4 @@ if [ -z "$1" ]; then
 fi
 
 grep ^"$1"$ "$Dict"
+#end
