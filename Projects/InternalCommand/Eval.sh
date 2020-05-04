@@ -7,3 +7,4 @@ then
   process="ps -ef | grep $1"
 fi
 eval "$process"
+sleep 10
