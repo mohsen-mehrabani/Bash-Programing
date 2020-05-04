@@ -19,5 +19,5 @@ if [ -z "$1" ]; then
   exit $E_NoPattern
 fi
 
-grep ^"$1"$ "$Dict"
-#end  end
+grep ^"$1"$ "$Dict"  # ^ is an anchor of the begin of the line and the $ is an anchor of the end of the line
+sleep 10
