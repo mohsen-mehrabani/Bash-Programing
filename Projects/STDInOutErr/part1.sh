@@ -6,3 +6,5 @@ read -n 2 <&3
 echo -n . >&3
 exec 3>&-
 cat file.txt
+
+  # https://www.computerhope.com/unix/bash/exec.htm
