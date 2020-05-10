@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 Args=1
 E_BadArgs=85
@@ -15,7 +15,7 @@ get_real_name()
 {
   while read line
   do
-    echo "$line" | grep $1 awk -F":" '{ print $5 }'
+    echo "$line" | grep $1 | awk -F":" '{ print $5 }'
   done
 }<$FILE
 

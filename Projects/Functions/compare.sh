@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 E_Param_Err=250
 Equal=251
@@ -34,4 +34,3 @@ then
     else
       echo "Max number is $Return_Value"
 fi
-sleep 2

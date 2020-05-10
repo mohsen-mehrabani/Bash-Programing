@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 _()
 {
@@ -8,4 +8,3 @@ var2=10
 var1=20
 
 _ $1 $2
-sleep 10
